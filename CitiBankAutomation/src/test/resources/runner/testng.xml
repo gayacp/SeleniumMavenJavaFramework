@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.citi.bank.ExtentListeners.ExtentListeners"></listener>
+	</listeners>
+	<test name="Credit card validation">
+		<classes>
+			<class name="com.citi.bank.testcases.CreditCardTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Login validation">
+		<classes>
+			<class name="com.citi.bank.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="Credit card Negative test">
+		<classes>
+			<class name="com.citi.bank.testcases.CreditCardNegative" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

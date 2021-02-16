@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-16T16:55:58 EST" name="Suite" finished-at="2021-02-16T16:57:00 EST" duration-ms="62547">
+    <groups>
+    </groups>
+    <test started-at="2021-02-16T16:55:58 EST" name="Credit card validation" finished-at="2021-02-16T16:56:22 EST" duration-ms="24438">
+      <class name="com.citi.bank.testcases.CreditCardTest">
+        <test-method signature="creditCardTest(java.util.Hashtable)[pri:0, instance:com.citi.bank.testcases.CreditCardTest@626abbd0]" started-at="2021-02-16T16:55:58 EST" name="creditCardTest" data-provider="masterDP" finished-at="2021-02-16T16:56:21 EST" duration-ms="23257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y, expected=Citi® Double Cash Card}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.citi.bank.testcases.CreditCardTest@626abbd0]" started-at="2021-02-16T16:56:21 EST" name="teardown" finished-at="2021-02-16T16:56:22 EST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.citi.bank.testcases.CreditCardTest -->
+    </test> <!-- Credit card validation -->
+    <test started-at="2021-02-16T16:56:22 EST" name="Login validation" finished-at="2021-02-16T16:56:39 EST" duration-ms="16765">
+      <class name="com.citi.bank.testcases.LoginTest">
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.citi.bank.testcases.LoginTest@5e3f861]" started-at="2021-02-16T16:56:22 EST" name="loginTest" data-provider="masterDP" finished-at="2021-02-16T16:56:34 EST" duration-ms="11284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, password=ruhrhtrg23, Runmode=Y, username=gdngfngd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.util.Hashtable)[pri:0, instance:com.citi.bank.testcases.LoginTest@5e3f861]" started-at="2021-02-16T16:56:22 EST" name="loginTest" data-provider="masterDP" finished-at="2021-02-16T16:56:38 EST" duration-ms="16024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, password=hsefsf45, Runmode=Y, username=gayachathothp2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.citi.bank.testcases.LoginTest@5e3f861]" started-at="2021-02-16T16:56:34 EST" name="teardown" finished-at="2021-02-16T16:56:35 EST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.citi.bank.testcases.LoginTest@5e3f861]" started-at="2021-02-16T16:56:38 EST" name="teardown" finished-at="2021-02-16T16:56:39 EST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.citi.bank.testcases.LoginTest -->
+    </test> <!-- Login validation -->
+    <test started-at="2021-02-16T16:56:39 EST" name="Credit card Negative test" finished-at="2021-02-16T16:57:00 EST" duration-ms="20949">
+      <class name="com.citi.bank.testcases.CreditCardNegative">
+        <test-method is-config="true" signature="setUpFramework()[pri:0, instance:com.citi.bank.testcases.CreditCardNegative@21be3395]" started-at="2021-02-16T16:55:58 EST" name="setUpFramework" finished-at="2021-02-16T16:55:58 EST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method signature="creditCardNegative(java.util.Hashtable)[pri:0, instance:com.citi.bank.testcases.CreditCardNegative@21be3395]" started-at="2021-02-16T16:56:39 EST" name="creditCardNegative" data-provider="masterDP" finished-at="2021-02-16T16:56:59 EST" duration-ms="19780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, Runmode=Y, expected=sfbfbesfbs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardNegative -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.citi.bank.testcases.CreditCardNegative@21be3395]" started-at="2021-02-16T16:56:59 EST" name="teardown" finished-at="2021-02-16T16:57:00 EST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.citi.bank.testcases.CreditCardNegative -->
+    </test> <!-- Credit card Negative test -->
+  </suite> <!-- Suite -->
+</testng-results>

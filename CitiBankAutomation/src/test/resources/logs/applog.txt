@@ -1,0 +1,9 @@
+INFO    2021-02-16 16:55:58,102 [main] com.citi.bank.testcases.BaseTest  - Config properties file loaded
+INFO    2021-02-16 16:55:58,620 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Inside CreditCardTest
+INFO    2021-02-16 16:56:02,370 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Chrome browser launched !!!
+INFO    2021-02-16 16:56:22,932 [TestNG-PoolService-1] com.citi.bank.testcases.BaseTest  - Inside LoginTest
+INFO    2021-02-16 16:56:22,934 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Inside LoginTest
+INFO    2021-02-16 16:56:26,241 [TestNG-PoolService-1] com.citi.bank.testcases.BaseTest  - Chrome browser launched !!!
+INFO    2021-02-16 16:56:26,769 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Firefox browser launched !!!
+INFO    2021-02-16 16:56:39,785 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Inside CreditCardTest
+INFO    2021-02-16 16:56:43,592 [TestNG-PoolService-0] com.citi.bank.testcases.BaseTest  - Firefox browser launched !!!
