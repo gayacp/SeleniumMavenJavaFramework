@@ -17,7 +17,7 @@ public class Rough extends BaseTest
 	{
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\gayap\\eclipse-workspace\\CitiBankAutomation\\src\\test\\resources\\executables\\chromedriver.exe");
 	driver= new ChromeDriver();
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("https://www.citi.com/");
 	driver.manage().window().maximize();
 	driver.findElement(By.xpath("//*[@id=\"creditcards\"]")).click();
