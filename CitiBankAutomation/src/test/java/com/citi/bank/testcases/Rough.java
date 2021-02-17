@@ -20,7 +20,7 @@ public class Rough extends BaseTest
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("https://www.citi.com/");
 	driver.manage().window().maximize();
-	driver.findElement(By.xpath("//*[@id=\"creditcards\"]")).click();
+	driver.findElement(By.xpath("//*[@id='creditcards']")).click();
 	driver.quit();
 	}
 }
